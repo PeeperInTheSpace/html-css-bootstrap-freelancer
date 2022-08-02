@@ -1,11 +1,7 @@
 /* GEBERAL SETTINGS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'ABeeZee', sans-serif;
-    font-weight: 800;
+body {
+    font-weight: 700;
 }
 
 /* HEADER SECTION */
@@ -54,7 +50,6 @@
     border-radius: 50px;
     width: 100px;
     height: 0;
-    margin: 0 15px;
 }
 
 .fl-intro div i {
@@ -105,4 +100,37 @@
         background-color: #1abc9c;
         color: white;
         min-width: 100%;
+    }
+    
+    .fl-about h3 {
+        margin-top: 25px;
+    }
+
+    .fl-about div .bi-star-fill {
+        font-size: 30px;
+        margin: 0 15px;
+    }
+    
+    .fl-about div hr {
+        border: 2px solid;
+        opacity: 100%;
+        border-radius: 50px;
+        width: 50px;
+        height: 0;
+    }
+
+    /* CONTACT ME */
+
+    .fl-contact-me div .bi-star-fill {
+        color: black;
+        font-size: 30px;
+        margin: 0 15px;
+    }
+    
+    .fl-contact-me div hr {
+        border: 2px solid black;
+        opacity: 100%;
+        border-radius: 50px;
+        width: 50px;
+        height: 0;
     }
