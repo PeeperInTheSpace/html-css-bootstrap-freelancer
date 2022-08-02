@@ -38,7 +38,7 @@ body {
     min-width: 100%;
     color: white;
     padding-bottom: 25px;
-} 
+}
 
 .fl-intro div {
     margin-bottom: 10px;
@@ -82,55 +82,79 @@ body {
     height: 0;
 }
 
-    /* CARDS */
+/* CARDS */
 
-    .fl-imgsection {
-        margin-bottom: 50px;
-    }
+.fl-imgsection {
+    margin-bottom: 50px;
+}
 
-    .fl-cards-box img{
-        width: 100%;
-        border-radius: 10px;
-        margin-top: 20px;
-    }
+.fl-cards-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
-    /* ABOUT SECTION */
+/* ABOUT SECTION */
 
-    .fl-about {
-        background-color: #1abc9c;
-        color: white;
-        min-width: 100%;
-    }
-    
-    .fl-about h3 {
-        margin-top: 25px;
-    }
+.fl-about {
+    background-color: #1abc9c;
+    color: white;
+    min-width: 100%;
+}
 
-    .fl-about div .bi-star-fill {
-        font-size: 30px;
-        margin: 0 15px;
-    }
-    
-    .fl-about div hr {
-        border: 2px solid;
-        opacity: 100%;
-        border-radius: 50px;
-        width: 50px;
-        height: 0;
-    }
+.fl-about h3 {
+    margin-top: 25px;
+}
 
-    /* CONTACT ME */
+.fl-about div .bi-star-fill {
+    font-size: 30px;
+    margin: 0 15px;
+}
 
-    .fl-contact-me div .bi-star-fill {
-        color: black;
-        font-size: 30px;
-        margin: 0 15px;
-    }
-    
-    .fl-contact-me div hr {
-        border: 2px solid black;
-        opacity: 100%;
-        border-radius: 50px;
-        width: 50px;
-        height: 0;
-    }
+.fl-about div hr {
+    border: 2px solid;
+    opacity: 100%;
+    border-radius: 50px;
+    width: 50px;
+    height: 0;
+}
+
+/* CONTACT ME */
+
+.fl-contact-me div .bi-star-fill {
+    color: black;
+    font-size: 30px;
+    margin: 0 15px;
+}
+
+.fl-contact-me div hr {
+    border: 2px solid black;
+    opacity: 100%;
+    border-radius: 50px;
+    width: 50px;
+    height: 0;
+}
+
+/* FORM */
+
+.fl-send-button {
+    background-color: #1abc9c;
+}
+
+/* FOOTER */
+
+.fl-footer {
+    background-color: #3a546d;
+    color: white;
+}
+
+.fl-social {
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.fl-sub-footer {
+    background-color: #2c3e50;
+    color: white;
+}
